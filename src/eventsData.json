@@ -1,0 +1,208 @@
+[{
+  "nid": [{
+    "value": 3
+  }],
+  "uuid": [{
+    "value": "e365bf74-9b96-4ae5-ab57-a69d8d03b9d9"
+  }],
+  "vid": [{
+    "value": 3
+  }],
+  "langcode": [{
+    "value": "en"
+  }],
+  "type": [{
+    "target_id": "asaweq",
+    "target_type": "node_type",
+    "target_uuid": "b36de34c-98de-4cdb-9fa3-5372725ddfe7"
+  }],
+  "status": [{
+    "value": true
+  }],
+  "title": [{
+    "value": "Fun with Flags"
+  }],
+  "uid": [{
+    "target_id": 1,
+    "target_type": "user",
+    "target_uuid": "6e1c1b39-fe7f-4d95-b241-941b19e79562",
+    "url": "\/user\/1"
+  }],
+  "created": [{
+    "value": 1501695495
+  }],
+  "changed": [{
+    "value": 1501695614
+  }],
+  "promote": [{
+    "value": true
+  }],
+  "sticky": [{
+    "value": false
+  }],
+  "revision_timestamp": [{
+    "value": 1501695614
+  }],
+  "revision_uid": [{
+    "target_id": 1,
+    "target_type": "user",
+    "target_uuid": "6e1c1b39-fe7f-4d95-b241-941b19e79562",
+    "url": "\/user\/1"
+  }],
+  "revision_log": [],
+  "revision_translation_affected": [{
+    "value": true
+  }],
+  "default_langcode": [{
+    "value": true
+  }],
+  "path": [],
+  "body": [],
+  "field_date": [{
+    "value": "2017-07-24"
+  }],
+  "field_location": [{
+    "value": "Queens, NY"
+  }],
+  "field_organizer": [{
+    "value": "Medgar Evers College Preparatory School"
+  }]
+}, {
+  "nid": [{
+    "value": 2
+  }],
+  "uuid": [{
+    "value": "6eead734-7690-4057-a170-b97835b9bb0c"
+  }],
+  "vid": [{
+    "value": 2
+  }],
+  "langcode": [{
+    "value": "en"
+  }],
+  "type": [{
+    "target_id": "asaweq",
+    "target_type": "node_type",
+    "target_uuid": "b36de34c-98de-4cdb-9fa3-5372725ddfe7"
+  }],
+  "status": [{
+    "value": true
+  }],
+  "title": [{
+    "value": "Family Day"
+  }],
+  "uid": [{
+    "target_id": 1,
+    "target_type": "user",
+    "target_uuid": "6e1c1b39-fe7f-4d95-b241-941b19e79562",
+    "url": "\/user\/1"
+  }],
+  "created": [{
+    "value": 1501695409
+  }],
+  "changed": [{
+    "value": 1501695488
+  }],
+  "promote": [{
+    "value": true
+  }],
+  "sticky": [{
+    "value": false
+  }],
+  "revision_timestamp": [{
+    "value": 1501695488
+  }],
+  "revision_uid": [{
+    "target_id": 1,
+    "target_type": "user",
+    "target_uuid": "6e1c1b39-fe7f-4d95-b241-941b19e79562",
+    "url": "\/user\/1"
+  }],
+  "revision_log": [],
+  "revision_translation_affected": [{
+    "value": true
+  }],
+  "default_langcode": [{
+    "value": true
+  }],
+  "path": [],
+  "body": [],
+  "field_date": [{
+    "value": "2017-08-02"
+  }],
+  "field_location": [{
+    "value": "New York, NY"
+  }],
+  "field_organizer": [{
+    "value": "Jordie Tommy"
+  }]
+}, {
+  "nid": [{
+    "value": 1
+  }],
+  "uuid": [{
+    "value": "dcd2d0b5-8bbe-4ea0-acca-457645a9b849"
+  }],
+  "vid": [{
+    "value": 1
+  }],
+  "langcode": [{
+    "value": "en"
+  }],
+  "type": [{
+    "target_id": "asaweq",
+    "target_type": "node_type",
+    "target_uuid": "b36de34c-98de-4cdb-9fa3-5372725ddfe7"
+  }],
+  "status": [{
+    "value": true
+  }],
+  "title": [{
+    "value": "EspooCine"
+  }],
+  "uid": [{
+    "target_id": 1,
+    "target_type": "user",
+    "target_uuid": "6e1c1b39-fe7f-4d95-b241-941b19e79562",
+    "url": "\/user\/1"
+  }],
+  "created": [{
+    "value": 1501695371
+  }],
+  "changed": [{
+    "value": 1501695396
+  }],
+  "promote": [{
+    "value": true
+  }],
+  "sticky": [{
+    "value": false
+  }],
+  "revision_timestamp": [{
+    "value": 1501695396
+  }],
+  "revision_uid": [{
+    "target_id": 1,
+    "target_type": "user",
+    "target_uuid": "6e1c1b39-fe7f-4d95-b241-941b19e79562",
+    "url": "\/user\/1"
+  }],
+  "revision_log": [],
+  "revision_translation_affected": [{
+    "value": true
+  }],
+  "default_langcode": [{
+    "value": true
+  }],
+  "path": [],
+  "body": [],
+  "field_date": [{
+    "value": "2017-08-01"
+  }],
+  "field_location": [{
+    "value": "Bronx, NY"
+  }],
+  "field_organizer": [{
+    "value": "jordane thomas"
+  }]
+}]
