@@ -3,3 +3,8 @@
   width: 30%; /*Assumes the it's a full or half screen*/
   display: inline-block;
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
