@@ -2,13 +2,15 @@ import React from 'react';
 
 function ListItem(props) {
   return(
-    <section>
-      <h2>{props.title}</h2>
-      <div>
-        <p>{props.date}</p>
-        <p>{props.organizer}</p>
-      </div>
-    </section>
+    <li>
+      <section>
+        <h2>{props.title}</h2>
+        <div>
+          <p>{props.date}</p>
+          <p>{props.organizer}</p>
+        </div>
+      </section>
+    </li>
   );
 }
 
