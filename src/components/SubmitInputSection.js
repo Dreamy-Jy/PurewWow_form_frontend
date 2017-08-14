@@ -103,9 +103,9 @@ handleSubmit(e) {
 
            headers: {
            'Content-Type': 'application/json',
-             'X-CSRF-Token': '/url/session/token',
+           'X-CSRF-Token': '/url/session/token',
            'Data-Type': 'json',
-           'Authorization': 'Basic YWRtaW46bWV0NHNNUlk1Vg=='
+           'Authorization': 'Basic' + btoa('username:password')
          }
        })
        .then(response =>{

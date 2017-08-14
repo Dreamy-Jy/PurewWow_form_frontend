@@ -44,7 +44,9 @@ class ItemList extends Component {
 
     return(
       <article>
+        <ol>
         {list}
+        </ol>
       </article>
     );
   }
