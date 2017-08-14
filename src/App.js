@@ -17,8 +17,6 @@ class App extends Component {
           <FormTitle text="Create a New Event" />
           <SubmitInputSection />
         </section>
-        <GooglePlusLogin />
-        <JSONViewer />
       </main>
     );
   }

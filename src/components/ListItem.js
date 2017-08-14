@@ -2,8 +2,7 @@ import React from 'react';
 
 function ListItem(props) {
   return(
-
-<li>
+  <li>
     <section>
       <h2>{props.title}</h2>
       <div>
@@ -11,8 +10,8 @@ function ListItem(props) {
         <p>{props.organizer}</p>
         <p>{props.location} </p>
       </div>
-</section>
-</li>
+    </section>
+  </li>
   );
 }
 
