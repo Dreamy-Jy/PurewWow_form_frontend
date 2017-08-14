@@ -7,6 +7,7 @@ function ListItem(props) {
       <div>
         <p>{props.date}</p>
         <p>{props.organizer}</p>
+        <p>{props.location} </p>
       </div>
     </section>
   );

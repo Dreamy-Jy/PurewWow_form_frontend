@@ -30,16 +30,15 @@ class ItemList extends Component {
          });
   }
 
-
   render() {
-    console.log("rendering");
-    console.log(this.state);
+     console.log("rendering");
+     console.log(this.state);
 
     let list= [];
 
     for (let i = 0; i < this.state.data.length; i++){
       list.push(
-        <ListItem title={this.state.data[i].title[0].value}  date={this.state.data[i].field_date[0].value} organizer={this.state.data[i].field_organizer[0].value} />
+        <ListItem title={this.state.data[i].title[0].value}  date={this.state.data[i].field_date[0].value} organizer={this.state.data[i].field_organizer[0].value} location={this.state.data[i].field_location[0].value}/>
       );
     }
 
