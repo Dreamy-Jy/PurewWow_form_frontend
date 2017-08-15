@@ -4,12 +4,14 @@ import ItemList from "./components/ItemList";
 import SubmitInputSection from "./components/SubmitInputSection";
 //import JSONViewer from "./components/JSONViewer";
 //import GooglePlusLogin from "./components/GooglePlusLogin";
-import "./stylesheet/panel.css"
+import "./stylesheet/panel.css";
+import "./stylesheet/formApp.css";
+import "./stylesheet/utilityStyles.css"
 
 class App extends Component {
   render() {
     return(
-      <main>
+      <main className="formApp">
         <section className="panel">
           <FormTitle text="Events"/>
           <ItemList />

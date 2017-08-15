@@ -3,7 +3,5 @@ These are the style for the panels
 */
 
 .panel {
-  border: 4px dotted black;
-  width: 30%; /*Assumes the it's a full or half screen*/
-  display: inline-block;
+  width: 45.5%;
 }

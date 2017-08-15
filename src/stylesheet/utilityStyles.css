@@ -1,0 +1,12 @@
+/*
+These are styles that apply to all pages,
+or are used in multipule components.
+*/
+
+.floatLeft {
+  float:left;
+}
+
+.floatRight {
+  float: right;
+}

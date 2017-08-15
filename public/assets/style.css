@@ -1,5 +1,0 @@
-.panel {
-  border: 4px dotted black;
-  width: 30%; /*Assumes the it's a full or half screen*/
-  display: inline-block;
-}

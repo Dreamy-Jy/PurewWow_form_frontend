@@ -1,0 +1,15 @@
+/*
+formApp is a centered Contianer for the entire
+form app.
+- is has a transparent back ground
+- is by default the entire view port height
+but will expand if their is enough content
+inside it.
+*/
+.formApp{
+  width: 90%;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
