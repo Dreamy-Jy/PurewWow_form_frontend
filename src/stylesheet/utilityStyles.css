@@ -2,6 +2,15 @@
 These are styles that apply to all pages,
 or are used in multipule components.
 */
+@font-face {
+  font-family: 'brandon-grotesque';
+  src: url(./brandon_grotesque.otf);
+}
+
+@@font-face {
+  font-family: 'freight-display-pro' ;
+  src: url(./freight_display_pro.otf);
+}
 
 .floatLeft {
   float:left;
