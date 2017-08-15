@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import FormTitle from "./components/FormTitle";
 import ItemList from "./components/ItemList";
 import SubmitInputSection from "./components/SubmitInputSection";
-import JSONViewer from "./components/JSONViewer";
-import GooglePlusLogin from "./components/GooglePlusLogin"
+//import JSONViewer from "./components/JSONViewer";
+//import GooglePlusLogin from "./components/GooglePlusLogin";
+import "./stylesheet/panel.css"
 
 class App extends Component {
   render() {
