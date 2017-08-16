@@ -7,7 +7,7 @@ or are used in multipule components.
   src: url(./brandon_grotesque.otf);
 }
 
-@@font-face {
+@font-face {
   font-family: 'freight-display-pro' ;
   src: url(./freight_display_pro.otf);
 }
