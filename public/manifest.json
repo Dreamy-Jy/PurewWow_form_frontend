@@ -1,10 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Quiz Editor",
+  "name": "PureWow Quiz Editor",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "192x192",
+      "src": "https://purewow-staticazcdn.azureedge.net/v_2013/images/pw-logo-apple-180.png",
+      "sizes": "180x180",
       "type": "image/png"
     }
   ],

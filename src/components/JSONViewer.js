@@ -1,10 +1,6 @@
 import React, {Component} from "react";
 import axios from "axios";
 
-/*
-Test component. Delete
-*/
-
 class JSONViewer extends Component {
   constructor(props) {
     super(props);

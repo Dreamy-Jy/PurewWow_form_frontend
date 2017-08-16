@@ -8,9 +8,6 @@ class ItemList extends Component{
   render() {
      console.log("rendering");
 
-
-
-
     let list= [];
     console.log(list);
 
@@ -20,14 +17,8 @@ class ItemList extends Component{
       );
     }
 
-<<<<<<< HEAD
     return(
       <article className="itemList">
-=======
-
-return(
-      <article>
->>>>>>> Naomi-s-branch
         <ol>
         {list}
         </ol>
