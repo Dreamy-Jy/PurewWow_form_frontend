@@ -1,7 +1,7 @@
 import React from 'react';
 
 /*
-Test component. Delete
+Test component. Delete 
 */
 
 function GooglePlusLogin() {
