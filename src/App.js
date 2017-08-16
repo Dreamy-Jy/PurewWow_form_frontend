@@ -2,8 +2,11 @@ import React, { Component } from "react";
 import FormTitle from "./components/FormTitle";
 import ItemList from "./components/ItemList";
 import SubmitInputSection from "./components/SubmitInputSection";
-import JSONViewer from "./components/JSONViewer";
-import GooglePlusLogin from "./components/GooglePlusLogin"
+//import JSONViewer from "./components/JSONViewer";
+//import GooglePlusLogin from "./components/GooglePlusLogin";
+import "./stylesheet/panel.css";
+import "./stylesheet/formApp.css";
+import "./stylesheet/utilityStyles.css";
 
 
 var axios = require('axios');
@@ -123,8 +126,6 @@ render() {
            submitForm = {this.submitForm}
           />
         </section>
-        <GooglePlusLogin />
-
       </main>
     );
   }
