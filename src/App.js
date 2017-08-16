@@ -6,7 +6,7 @@ import SubmitInputSection from "./components/SubmitInputSection";
 //import GooglePlusLogin from "./components/GooglePlusLogin";
 import "./stylesheet/panel.css";
 import "./stylesheet/formApp.css";
-import "./stylesheet/utilityStyles.css"
+import "./stylesheet/utilityStyles.css";
 
 class App extends Component {
   render() {

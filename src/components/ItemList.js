@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from "axios";
 import ListItem from './ListItem';
+import "../stylesheet/itemList.css";
 
 class ItemList extends Component {
   constructor(props) {
@@ -43,7 +44,7 @@ class ItemList extends Component {
     }
 
     return(
-      <article>
+      <article className="itemList">
         <ol>
         {list}
         </ol>
