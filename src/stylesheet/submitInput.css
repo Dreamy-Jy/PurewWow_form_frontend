@@ -1,0 +1,69 @@
+.formstyle {
+  padding: 0;
+  margin: px auto;
+  max-width: 400px;
+  font: 13px "freight-display-pro";
+}
+
+.formstyle li {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 20px 0 0 0;
+}
+
+.formstyle input[type=text], textarea, select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid rgba(242, 118, 118, 0.33);
+  padding: 7px;
+  margin: 0px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+}
+
+.formstyle input[type=text] {
+  height: 60px;
+  width: 300px;
+  font-size: 18px;
+}
+
+.formstyle input[type=text]:focus{
+
+    -moz-box-shadow: 0 0 8px #F27676;
+    -webkit-box-shadow: 0 0 8px #F27676 ;
+    box-shadow: 0 0 8px #F27676;
+    border: 1px solid #F27676;
+
+}
+
+
+.formstyle input[type=submit], .formstyle input[type=button]{
+	border: 1px solid #f27676;
+	background-color: #f27676;
+	cursor: pointer;
+	transition: all .5s ease;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 1.9;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	font-size: 11.5px;
+	font-family: brandon-grotesque;
+	letter-spacing: 3px;
+	border-radius: 2px;
+	font-weight: 700;
+	margin: 17px auto 30px;
+	padding: 17px 82px;
+
+}
+
+.formstyle input[type=submit]:hover, .formstyle input[type=button]:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-color: #ffffff;
+   color: #000000;
+}

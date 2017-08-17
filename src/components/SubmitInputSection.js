@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-
-
-
-
+import "../stylesheet/submitInput.css";
 
 class SubmitInputSection extends Component {
   constructor() {
@@ -52,13 +49,16 @@ class SubmitInputSection extends Component {
   render() {
     return(
       <section>
-        <form>
-          <input type="text" placeholder="What's the Title?" value={this.state.titleVal} onChange={this.setTitleVal}/>
-          <input type="text" placeholder="Who's the organizer?" value={this.state.organizerVal} onChange={this.setOrganizerVal}/>
-          <input type="text" placeholder="What day is the event?" value={this.state.dateVal} onChange={this.setDateVal}/>
-          <input type="text" placeholder="Where is the event?" value={this.state.locationVal} onChange={this.setLocationVal}/>
-          <input type="submit" onClick = {this.props.submitForm}   />
-        </form>
+  <form>
+      <ul className = "formstyle">
+        <li>  <input type="text" placeholder="What's the Title?" value={this.state.titleVal} onChange={this.setTitleVal} /> </li>
+        <li>  <input type="text" placeholder="Who's the organizer?" value={this.state.organizerVal} onChange={this.setOrganizerVal}/> </li>
+        <li>  <input type="text" placeholder="What day is the event?" value={this.state.dateVal} onChange={this.setDateVal} /> </li>
+        <li>  <input type="text" placeholder="Where is the event?" value={this.state.locationVal} onChange={this.setLocationVal}/> </li>
+        <li>  <input type="submit" onClick = {this.props.submitForm}   /> </li>
+      </ul>
+    </form>
+
       </section>
     );
   }
