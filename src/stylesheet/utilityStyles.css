@@ -12,6 +12,11 @@ or are used in multipule components.
   src: url(./freight_display_pro.otf);
 }
 
+#signature {
+  position: absolute;
+  right: 0;
+}
+
 .floatLeft {
   float:left;
 }
