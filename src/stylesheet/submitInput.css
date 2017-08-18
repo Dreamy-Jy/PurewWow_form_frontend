@@ -42,7 +42,7 @@
 }
 
 
-.formstyle input[type=submit], .formstyle input[type=button]{
+.formstyle button[type=submit], .formstyle button[type=button]{
 	border: 1px solid #f27676;
 	background-color: #f27676;
 	cursor: pointer;
@@ -62,7 +62,7 @@
 
 }
 
-.formstyle input[type=submit]:hover, .formstyle input[type=button]:hover {
+.formstyle button[type=submit]:hover, .formstyle button[type=button]:hover {
   background-color: rgba(0, 0, 0, 0.03);
   border-color: #ffffff;
    color: #000000;
