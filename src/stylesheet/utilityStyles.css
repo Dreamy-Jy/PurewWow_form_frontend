@@ -15,6 +15,7 @@ or are used in multipule components.
 #signature {
   position: absolute;
   right: 0;
+  width: 200px;
 }
 
 .floatLeft {
